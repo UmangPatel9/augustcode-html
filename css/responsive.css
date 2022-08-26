@@ -1,3 +1,10 @@
+@media screen and (min-width:1170px){
+  .container {
+    max-width: 1000px;
+  }
+
+}
+
 @media screen and (max-width:1400px){
     .featureListBlog .topbloglist .blogcaption{
         left: -100px;
@@ -923,11 +930,13 @@ ul.list-with-bullet {
 
 }
 
-@media only screen and (min-width: 991px) and (max-width: 2560px){
-  .title-h1{
-    padding-top: 20%;
+
+/* wordpress plugins page responsive start */
+@media only screen and (max-width: 991px) { 
+  .wordpress-plugins-section {
+    padding: 100px 0;
   }
-}
+} 
 
 @media only screen and (min-width: 769px) and (max-width: 940px) {
   .wrap {
@@ -942,49 +951,51 @@ ul.list-with-bullet {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
-   .title-h1 {
+  .title-h1 {
     font-size: 70px;
-    }
-    .plugin_name{
-      font-size: 1.3rem;
-      }
-      #para1{
-        font-size: 18px;
-      }
-      #plugin-img{
-        height: 65px; 
-        width: 65px; 
-        }
+  }
+  .plugin_name{
+  font-size: 1.3rem;
+  }
+  #para1{
+    font-size: 18px;
+  } 
+  #plugin-img{
+    height: 65px; 
+    width: 65px; 
+  }
+}
+
+@media only screen and (max-width: 767px) { 
+  .wordpress-plugins-section {
+    padding: 50px 0;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
   .title-h1 {
-      font-size: 40px;
-      margin-top: 40px;
+    font-size: 40px;
+    margin-top: 40px;
   }
-  .float-right {
-      float: none;
+  .projects .name {
+    width: 100%;
+    flex: 0 0 100%;
   }
-      figure.float-right {
-          margin: 15px 0;
-      }
-
-      .projects .name {
-        width: 100%;
-    }
-    .projects .description {
-      width: 100%;
-    }     
+  .projects .description {
+    width: 100%;
+    flex: 0 0 100%;
+    margin-top: 15px;
+  } 
+  .projects .item {
+    display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }    
 }
-
-code {
-  white-space: pre-wrap;
-}
-
 
 @media only screen and (min-width: 550px) and (max-width: 767px){
-.plugin_name{
-  font-size: 1.2rem;
+  .plugin_name{
+    font-size: 1.2rem;
   }
   #para1{
     font-size: 17px;
@@ -992,17 +1003,16 @@ code {
   #plugin-img{
     height: 60px; 
     width: 60px; 
-    }
+  }
 }
 
 @media only screen and (max-width: 500px){
   #plugin-img{
-  height: 55px; 
-  width: 55px; 
+    height: 55px; 
+    width: 55px; 
   }
-
   .plugin_name{
-  font-size: 1rem;
+    font-size: 1rem;
   }
   #para1{
     font-size: 17px;
@@ -1013,44 +1023,38 @@ code {
   #plugin-img{
     height: 50px; 
     width: 50px; 
-    }
-  
-    .plugin_name{
+  }
+  .plugin_name{
     font-size: 0.9rem;
-    }
-    #para1{
-      font-size: 15px;
-    }
+  }
+  #para1{
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 375px){
   #plugin-img{
     height: 45px; 
     width: 45px; 
-    }
-  
-    .plugin_name{
+  }
+  .plugin_name{
     font-size: 0.8rem;
-    }
-    #para1{
-      font-size: 15px;
-    }
+  }
+  #para1{
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 320px){
   #plugin-img{
     height: 35px; 
     width: 45px; 
-    }
-  
-    .plugin_name{
+  }
+  .plugin_name{
     font-size: 0.5rem;
-    }
-    #para1{
-      font-size: 10px;
-    }
+  }
+  #para1{
+    font-size: 10px;
+  }
 }
-
-
-
-
+/* wordpress plugins page responsive end */

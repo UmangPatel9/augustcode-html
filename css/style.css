@@ -1510,6 +1510,7 @@ footer {
 .footer-menu li {
   display: inline-block;
   padding: 0 17px;
+  margin-bottom: 0;
 }
 .social-icons a {
   display: inline-block;
@@ -1569,7 +1570,7 @@ footer {
 }
 .footer-block {
   display: inline-block;
-  padding: 0 17px;
+  padding: 4px 10px;
 }
 .footer-block h5 {
   font-size: 18px;
@@ -3688,117 +3689,17 @@ canvas{
 
 
 /*----  [24/08/2022]  wordpress plugins page start ----*/
-
+.wordpress-plugins-section {
+  padding: 200px 0 100px;
+}
 .site-main-content-1 {
   padding-top: 1% !important;
   padding-bottom: 1% !important;
 }
-
-a {
-  color: #000;
-  text-decoration: none;
-  word-break: break-word;
+.post .highlight {
+    background: #f4f4f4;
+    padding: 5px;
 }
-  a:hover {
-      color: #0066ff;
-      text-decoration: underline;
-      text-decoration-color: #0066ff;
-      text-decoration-thickness: 2px;
-  }
-  code {
-      display: inline-block;
-      background: #f4f4f4;
-      color: #000;
-      padding: 3px 5px;
-      font-size: 0.9em;
-  }
-  pre code {
-      display: block;
-  }
-  .post .highlight {
-      background: #f4f4f4;
-      padding: 5px;
-  }
-
-html,button,input,select,textarea {
-  color: #333;
-}
-
-::-moz-selection {
-  background: #000;
-  text-shadow: none;
-  color: #fff;
-}
-
-::selection {
-  background: #000;
-  text-shadow: none;
-  color: #fff;
-}
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #eee;
-  margin: 15px 0;
-  padding: 0;
-}
-
-img {
-  max-width: 100%;
-}
-
-a img {
-  border:none;
-}
-
-figure {
-  margin: 0;
-  text-align: center;
-}
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-textarea {
-  resize: vertical;
-}
-
-blockquote {
-  background: #f6f6f6;
-  font-style: italic;
-  border-left: 5px solid;
-  border-color: #000;
-  padding: 5px 15px;
-}
-
-blockquote cite {
-  font-size: 70%;
-  opacity: .8;
-}
-
-blockquote em {
-  font-weight: 600;
-}
-
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
-  line-height: 1.3em;
-  margin: 45px 0 20px 0;
-}
-
- .title-h1{
-  font-size: 118px ;
-  line-height: 100%;
- 
-  margin: 0;
-}
-
 #cap-1{
   color: #000000;
     font-family: 'Ubuntu-Regular';
@@ -3807,157 +3708,84 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     text-align: left;
 }
-
-h2 {
-  font-size: 2rem;
-}
-
 .plugin_name{
   font-size: 1.5rem;
 }
-
-h4 {
-  font-size: 1.2rem;
-}
-
-h5 {
-  font-size: 1rem;
-}
-
-h6 {
-  font-size: .9rem;
-}
-
-.align-center {
-  text-align: center;
-}
-
-.align-left {
-  text-align: left;
-}
-
-.align-right {
-  text-align: right;
-}
-
-.float-right {
-  float: right;
-}
-  figure.float-right {
-      margin: 0 15px 0 15px;
-  }
-
-.text-small {
-  font-size: .875em;
-}
-
-ul {
-  padding-left: 15px;
-}
-
-ul.flat {
-  margin: 0;
-  padding: 0;
-}
-
-ul.flat li {
-  display: inline-block !important;
-  list-style: none;
-  margin-left: 0;
-}
-
 .prevent-collapse {
   min-height: .1rem
 }
-
 .post ul li {
   margin-bottom: 10px;
 }
-
 .highlight pre {
   margin-bottom: 0;
   margin-top: 0;
   padding: 20px;
   background-color: transparent !important;
 }
-
 .wrap {
   background: #fff;
   margin: 0 auto;
   padding: 60px 75px;
 }
-
-.container {
-  max-width: 100%;
-  min-width: 320px;
-}
-
 .description{
   padding-left: 2%;
   width: 100%;
- }
-
+}
 .posts .post {
   margin-bottom: 60px;
 }
-
-  .post .content {
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 30px;
-      margin-bottom: 30px;
-  }
-  .post .content a {
-      color: #0066ff;
-      text-decoration: underline;
-  }
-      .post .content a:hover {
-          color: #000;
-          text-decoration-color: #000;;
-      }
-
-
+.post .content {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.post .content a {
+    color: #0066ff;
+    text-decoration: underline;
+}
+.post .content a:hover {
+    color: #000;
+    text-decoration-color: #000;;
+}
 .projects {
   margin-top: 60px;
 }
-  .projects .item {
-      display: flex;
-      margin-bottom: 30px;
-      flex-wrap: wrap;
-  }
-  .projects .name {
-      flex: 0 0 40%;
-  }
-  .projects .description {
-    flex: 0 0 60%;
-  }
-  .projects h3 {
-      margin: 0;
-  }
-  .projects p {
-      margin: 0 0 10px 0;
-  }
-  .projects .date {
-      font-size: 0.875em;
-      color: #999;
-  }
-
+.projects .item {
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.projects .name {
+    flex: 0 0 40%;
+}
+.projects .description {
+  flex: 0 0 60%;
+}
+.projects h3 {
+    margin: 0;
+}
+.projects p {
+    margin: 0 0 10px 0;
+}
+.projects .date {
+    font-size: 0.875em;
+    color: #999;
+}
 h1.intro {
   margin: 0 0 120px 0;
 }
-  .intro .highlight {
-      border-bottom: 5px solid #0066ff;
-  }
-
-
-  #plugin-img{
-    height: 95px;
-    width: 95px;
-  }
-   
-  #para2{
-    color:grey;
-    font-size:medium;
-  }
+.intro .highlight {
+    border-bottom: 5px solid #0066ff;
+}
+#plugin-img{
+  height: 95px;
+  width: 95px;
+} 
+#para2{
+  color:grey;
+  font-size:medium;
+}
 /*----  [24/08/2022]  wordpress plugins page over ----*/
 
 
