@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="317" viewBox="0 0 272 317">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d61616;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="testimonials-triangle1" class="cls-1" d="M0,4699l272-157.38L0,4381.99V4699Z" transform="translate(0 -4382)"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115" height="11" viewBox="0 0 115 11">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 16px;
+        fill: #fff;
+        font-family: Ubuntu;
+      }
+    </style>
+  </defs>
+  <text id="LOADING" class="cls-1" x="-1.255" y="11.244">LOADING</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg id="down" xmlns="http://www.w3.org/2000/svg" width="7" height="90" viewBox="0 0 7 90">
+  <g id="square">
+    <rect x="4" y="88" width="1" height="1"/>
+    <rect id="Rectangle_13_copy" data-name="Rectangle 13 copy" x="4" y="87" width="1" height="1"/>
+    <rect id="Rectangle_13_copy_2" data-name="Rectangle 13 copy 2" x="3" y="86" width="1" height="1"/>
+    <rect id="Rectangle_13_copy_3" data-name="Rectangle 13 copy 3" x="3" y="87" width="1" height="1"/>
+    <rect x="2" y="86" width="1" height="1"/>
+    <rect id="Rectangle_13_copy-2" data-name="Rectangle 13 copy" x="2" y="85" width="1" height="1"/>
+    <rect id="Rectangle_13_copy_2-2" data-name="Rectangle 13 copy 2" x="1" y="84" width="1" height="1"/>
+    <rect id="Rectangle_13_copy_3-2" data-name="Rectangle 13 copy 3" x="1" y="85" width="1" height="1"/>
+    <rect id="Rectangle_13_copy_4" data-name="Rectangle 13 copy 4" y="83" width="1" height="1"/>
+    <rect id="Rectangle_13_copy_5" data-name="Rectangle 13 copy 5" y="84" width="1" height="1"/>
+  </g>
+  <rect id="line" x="5" width="2" height="90"/>
+</svg>

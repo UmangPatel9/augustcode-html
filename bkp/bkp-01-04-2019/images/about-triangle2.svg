@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="251" height="291" viewBox="0 0 251 291">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d61616;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="about-triangle2" class="cls-1" d="M0,2050v28l251-151L0,1787v28l204,112Z" transform="translate(0 -1787)"/>
+</svg>
