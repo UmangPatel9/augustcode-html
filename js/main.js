@@ -214,7 +214,35 @@ $(window).on("resize.slickVideoPlayer", function(){
 
 // banner code close
  
-
+$(document).ready(function(){
+  $('.customer-logos').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    autoplaySpeed: 1500,
+    autoplay: true,
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  })
+  });
 
 
 /******************* banner text animation  ***********************/

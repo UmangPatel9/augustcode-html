@@ -647,8 +647,6 @@ background: linear-gradient(135deg, rgba(214,22,22,1) 0%,rgba(214,22,22,1) 45%,r
 }
 .slick-slide::before {
   background: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.45) 50%, rgba(0,0,0,0.7) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.45) 50%,rgba(0,0,0,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.45) 50%,rgba(0,0,0,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     opacity: 0.3;
     z-index: 1;
 }
@@ -3786,9 +3784,37 @@ h1.intro {
   color:grey;
   font-size:medium;
 }
+
 /*----  [24/08/2022]  wordpress plugins page over ----*/
+/*  slider-our brand   */
+.slick-slide{
+  margin: 0px 22px;
+}
 
+.slick-slide{
+  height: auto !important;
+}
+.slider img{
+  height: 25vh !important;
+} 
+button.slick-prev.slick-arrow {
+  display: none !important;
+}
 
+button.slick-next.slick-arrow {
+  display: none !important;
+}
+.slick-slide video {
+  
+  height: 212vh !important;
+  
+}
+.brand {
+  margin-top: 45px;
+}
+section.customer-logos.slider.slick-initialized.slick-slider{
+  margin-top: -87px;
+}
 
 
 
