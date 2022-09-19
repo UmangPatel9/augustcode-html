@@ -3786,38 +3786,35 @@ h1.intro {
 }
 
 /*----  [24/08/2022]  wordpress plugins page over ----*/
-/*  slider-our brand   */
-.slick-slide{
-  margin: 0px 22px;
-}
 
-.slick-slide{
-  height: auto !important;
-}
-.slider img{
-  height: 25vh !important;
-} 
-button.slick-prev.slick-arrow {
-  display: none !important;
-}
 
-button.slick-next.slick-arrow {
-  display: none !important;
-}
-.slick-slide video {
-  
-  height: 212vh !important;
-  
-}
+/*  Our brand css start */
 .brand {
   margin-top: 45px;
 }
-section.customer-logos.slider.slick-initialized.slick-slider{
-  margin-top: -87px;
+.slide {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customer-logos .slick-slide {
+  position: relative;
+  height: auto;
 }
 
+ 
+@media only screen and (max-width: 375px){
+  /* .slider img {
+    
+    max-width: 100%;
+    margin-left: 92px;
+    margin-right: 55px;
+  }   */
+}
+/*  Our brand css end */
 
-
+  
 
 
 
