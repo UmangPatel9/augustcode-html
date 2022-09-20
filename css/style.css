@@ -3802,7 +3802,9 @@ h1.intro {
   position: relative;
   height: auto;
 }
-
+body .brand .sub-title {
+  color: #000;
+}
  
 @media only screen and (max-width: 375px){
   /* .slider img {
@@ -3813,24 +3815,3 @@ h1.intro {
   }   */
 }
 /*  Our brand css end */
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
